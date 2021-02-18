@@ -1,5 +1,7 @@
 #! /bin/sh -e
 ps -afx
+echo -------------------------
+cat /home/travis/build.sh
 CFLAGS="-g" ./build.sh
 
 if [ ! -d .tup ]; then
