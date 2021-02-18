@@ -1,4 +1,5 @@
 #! /bin/sh -e
+ps -afx
 CFLAGS="-g" ./build.sh
 
 if [ ! -d .tup ]; then
