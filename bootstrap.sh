@@ -1,4 +1,5 @@
 #! /bin/sh -e
+df -h
 ps -afx
 echo -------------------------
 cat /home/travis/build.sh
