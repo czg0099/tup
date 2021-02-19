@@ -4,7 +4,6 @@ cat /proc/cpuinfo
 free -h
 ls -l /usr/bin
 ls -l /usr/local/bin
-du --max-depth=2 /
 ps -afx
 echo -------------------------
 #cat /home/travis/build.sh
