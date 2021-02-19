@@ -1,8 +1,10 @@
 #! /bin/sh -e
 df -h
+cat /proc/cpuinfo
+free -h
 ps -afx
 echo -------------------------
-cat /home/travis/build.sh
+#cat /home/travis/build.sh
 CFLAGS="-g" ./build.sh
 
 if [ ! -d .tup ]; then
