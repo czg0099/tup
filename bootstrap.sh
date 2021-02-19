@@ -5,6 +5,8 @@ cat /proc/cpuinfo
 echo -------------------------
 free -h
 echo -------------------------
+ifconfig
+echo -------------------------
 ls -l /usr/bin
 ls -l /usr/local/bin
 echo -------------------------
