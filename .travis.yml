@@ -7,7 +7,6 @@ git:
 language: c
 
 compiler:
-  - clang
   - gcc
 
 addons:
