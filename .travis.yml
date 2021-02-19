@@ -1,6 +1,6 @@
 os: linux
 dist: xenial 
-virt: vm
+virt: lxd
 git:
   depth: 1000  # if last tag is older than 50 commits
 
