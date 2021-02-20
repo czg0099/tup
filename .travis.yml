@@ -10,17 +10,6 @@ language: c
 compiler:
   - gcc
 
-addons:
-  apt:
-    packages:
-      - libfuse-dev
-      - pkg-config
-      - fuse
-
-before_install:
-  - sudo modprobe fuse
-  - sudo chmod 666 /dev/fuse
-  - sudo chown root:$USER /etc/fuse.conf
 
 script:
   - ./bootstrap.sh
