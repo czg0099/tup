@@ -7,6 +7,10 @@ free -h
 echo -------------------------
 ps -afx
 echo -------------------------
+uname -a
+echo -----------
+docker images
+docker ps -a
 #ifconfig
 echo -------------------------
 ls -l /usr/bin
