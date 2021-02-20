@@ -5,13 +5,14 @@ cat /proc/cpuinfo
 echo -------------------------
 free -h
 echo -------------------------
-ifconfig
+ps -afx
+echo -------------------------
+#ifconfig
 echo -------------------------
 ls -l /usr/bin
 ls -l /usr/local/bin
 echo -------------------------
-ps -afx
-echo -------------------------
+
 #cat /home/travis/build.sh
 #CFLAGS="-g" ./build.sh
 
